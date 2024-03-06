@@ -1,0 +1,30 @@
+
+[
+  {
+    "guildId": "",
+    "channelId" : "",
+    "licenceEndDate" : ""
+  }
+]
+
+
+[
+  {
+    "guild": "",
+    "reference":"",
+    "sessionName": "",
+    "sessionDate": "",
+    "authorId" : "",
+    "authorName" : "",
+    "coins" : "",
+    "members" : [
+      {
+        "memberId": "",
+        "memberName" : "",
+        "isPaid" : "",
+        "datePaid" : ""
+      }
+    ]
+
+  }
+]

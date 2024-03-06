@@ -1,0 +1,27 @@
+{
+  "token": "MTA0MjQ1Mzg5MzU2NjcwOTc2MA.G4sgr_.rTOuwmqIcpO8ThoOjzkpGhMMMTA4F2pokvU7vM",
+  "app" : {
+    "version": "2.0.0",
+    "icon" : "https://albiononline.com/assets/images/shop/gold-1750.png",
+    "embed" : {
+      "url": "https://github.com/bbauer02",
+      "thumbnail": "https://albiononline.com/assets/images/shop/gold-3750.png",
+      "color": {
+        "application": "#c59e04",
+        "information" : "#217FFF",
+        "error" : "#FF2121",
+        "warning" : "#FF8D21",
+        "success" : "#32CD32"
+      },
+      "footer" : ""
+    }
+  },
+  "db" : {
+    "mongodb": {
+      "user" : "",
+      "password" : "",
+      "uri" : "mongodb+srv://cashprizev2:LPdXSvBkphSdtz2A@cluster0.fcoekqd.mongodb.net/?retryWrites=true&w=majority",
+      "uri_local" : "mongodb://localhost:27017/discordbot"
+    }
+  }
+}
