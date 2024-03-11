@@ -51,7 +51,7 @@ export const Create: Command = {
 
             const players =  discordHelper.getUserTagsFromCommand(<string>interaction.options.data[0].value) ;
             if( !players ) {
-                embebbedMessage = embebbedMessage = InformationEmbeddedBuilder(
+                embebbedMessage = InformationEmbeddedBuilder(
                     ":warning: Impossible de créer ce CashPrize !",
                     `Il faut ajouter au moins un joueur pour créer un **CashPrize** !`,
                     MessageType.error
@@ -79,7 +79,7 @@ export const Create: Command = {
                 if(lastInserted.length > 0) {
                     refId = +lastInserted[0].reference.slice(3,lastInserted[0].reference.length) +1;
                 }
-                const cashprize = new Cashprize({
+                const cashprize  = new Cashprize({
                     guildId,
                     reference: `ref${refId}`,
                     sessionName,

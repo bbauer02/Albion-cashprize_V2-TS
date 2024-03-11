@@ -1,4 +1,4 @@
-import { Schema, model } from 'mongoose';
+import {Schema, model, Model} from 'mongoose';
 import Member from "../../class/Member";
 
 

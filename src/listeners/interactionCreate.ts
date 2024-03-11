@@ -24,8 +24,9 @@ export default (client: Client) : void => {
         const discordHelper = new DiscordHelpers(client, interaction);
         const guildHelper = new GuildHelper();
         const isConfig: IGuild|Boolean = await guildHelper.isConfig(discordHelper.getGuildId());
-
+       // const lang = isConfig && "config" in isConfig && isConfig.config.lang!=="" && isConfig.config.lang!==null && isConfig.config.lang!==undefined ? isConfig.config.lang : "EN";
         if((isConfig && "config" in isConfig && isConfig.config.channelId === interaction.channelId) || interaction.commandName==="config") {
+
             slashCommand.run(client, interaction);
         }
         else if(isConfig && "config" in isConfig && isConfig.config.channelId !== interaction.channelId) {
